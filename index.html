@@ -9,9 +9,10 @@
 <script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
 
 <script type="text/javascript"> 
+  // window.name = 'fXD';
   VK.init(function() { 
      // API initialization succeeded 
-     //VK.callMethod("showSettingsBox", 8214);
+     VK.callMethod("showSettingsBox", 8214);
      console.log("!");
      document.getElementById("demo").innerHTML = "test!";
   }, function() { 
